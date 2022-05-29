@@ -1,41 +1,34 @@
-# Website
+# 娄豪杰的个人博客
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+这个网站是用[Docusaurus 2](https://docusaurus.io/), 一个现代静态网站生成器.
 
-### Installation
+### 启动指南
 
-```
-$ yarn
-```
-
-### Local Development
-
-```
-$ yarn start
+```bash
+$ pnpm install
+$ pnpm run start
 ```
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+### 打包构建
 
-### Build
-
-```
-$ yarn build
+```bash
+$ pnpm run build
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+这个命令生成静态内容到“build”目录中，可以使用任何静态内容托管服务.
 
-### Deployment
+### 部署
 
-Using SSH:
+使用 SSH:
 
 ```
 $ USE_SSH=true yarn deploy
 ```
 
-Not using SSH:
+不适用 SSH:
 
 ```
 $ GIT_USER=<Your GitHub username> yarn deploy
 ```
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+如果你使用的是GitHub页面托管，这个命令是一个方便的方式来建立网站，并推到`gh-pages`分支。 
